@@ -298,9 +298,9 @@ SimpleThread(int which)
 void
 ThreadTest()
 {
-    DEBUG('t', "Entering ThreadTest");
+    //DEBUG('t', "Entering ThreadTest");
 
-    Thread *t = new Thread("forked thread");
-    t->Fork(SimpleThread, 1);
+    //Thread *t = new Thread("forked thread");
+    //t->Fork(SimpleThread, 1);
     SimpleThread(0);
 }
