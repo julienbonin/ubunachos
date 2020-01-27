@@ -109,7 +109,7 @@ void Task1(int n)  //checkUserInput()
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 void Task2(int n)  //ThreadTest()
 {
-  DEBUG('t', " ");
+  //DEBUG('t', "Debug");
   int T;
   int S;
 
